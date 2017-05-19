@@ -1,0 +1,125 @@
+/* Empty. Add your own CSS if you like */
+
+ion-floating-menu #floating-menu {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#floating-menu .icon.menu-icon {
+    font-size: 40px;
+}
+
+#floating-menu li.menu-item {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+#floating-menu.active li.menu-item {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+#floating-menu.active li.left-item {
+    transform: translate(-100px, -70px) !important;
+    -webkit-transform: translate(-100px, -70px) !important;
+    transition-delay: 50ms !important;
+    -webkit-transition-delay: 50ms !important;
+}
+
+#floating-menu.active li.center-item {
+    transform: translateY(-125px) !important;
+    -webkit-transform: translateY(-125px) !important;
+    transition-delay: 50ms !important;
+    -webkit-transition-delay: 50ms !important;
+}
+
+#floating-menu.active li.right-item {
+    transform: translate(100px, -70px) !important;
+    -webkit-transform: translate(100px, -70px) !important;
+    transition-delay: 50ms !important;
+    -webkit-transition-delay: 50ms !important;
+}
+
+#floating-menu li.bottom-item {
+    background-color: #fff !important;
+    border: 1px solid #b2b2b2;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    width: 120%;
+    height: 120%;
+    left: -10%;
+    top: -10%;
+}
+
+#floating-menu.active li.bottom-item {
+    transform: translate(0px, 0px) !important;
+    -webkit-transform: translate(0px, 0px) !important;
+    transition-delay: 50ms !important;
+    -webkit-transition-delay: 50ms !important;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.3), 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgba(239, 72, 54, 1.0) !important;
+    border: none;
+    width: 120%;
+    height: 120%;
+    left: -10%;
+    top: -10%;
+}
+
+#floating-menu li.background-item {
+    box-shadow: none;
+    z-index: -1;
+}
+
+#floating-menu.active li.background-item {
+    transform: none !important;
+    -webkit-transform: none !important;
+    transition-delay: 5ms !important;
+    -webkit-transition-delay: 5ms !important;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    height: 175px;
+    left: -145px;
+    top: -143px;
+    width: 350px;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    border-top-left-radius: 350px;
+    border-top-right-radius: 350px;
+}
+
+#floating-menu li span.label-container {
+    right: 0px;
+    width: inherit;
+    text-align: center;
+    top: 30px;
+}
+
+#floating-menu li span.label-container span.trans-text {
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    font-size: 15px;
+}
+
+#floating-menu {
+    box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.3), 0 15px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+a.tab-item-active span.tab-title {
+    margin: 10px auto 0px auto;
+    width: 12px;
+    height: 6px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: block;
+    background: #E01931;
+}
+
+div.tab-nav {
+    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
